@@ -1,0 +1,29 @@
+svg {
+    background-color: lightgray;
+}
+
+rect {
+    fill-opacity: 0.1;
+    stroke-width: 1;
+    stroke: black;
+}
+
+rect.hover_move {
+    stroke: red;
+}
+
+rect.hover_resize {
+    stroke: green;
+}
+
+rect.move {
+    fill-opacity: 0.2;
+    stroke-width: 2;
+    stroke: red;
+}
+
+rect.resize {
+    fill-opacity: 0.2;
+    stroke-width: 2;
+    stroke: green
+}
